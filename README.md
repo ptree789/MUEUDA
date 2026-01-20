@@ -1,13 +1,13 @@
-**Getting Started**
+## **Getting Started**
 
 ## How to Install
 This code is built on top of the awesome toolbox [Dassl.pytorch]. so you need to install the `dassl` environment first. Simply follow the instructions described [here](https://github.com/KaiyangZhou/Dassl.pytorch#installation) to install `dassl` as well as PyTorch. After that, run `pip install -r requirements.txt` under `MUEUDA/` to install a few more packages required by [CLIP] (this should be done when `dassl` is activated). Then, you are ready to go.
 
-**Step 1**: Clone the Repository
+## **Step 1**: Clone the Repository
 
 git clone https://github.com/ptree789/MUEUDA
 
-**Step 2**: Prepare the Datasets
+## **Step 2**: Prepare the Datasets
 
 Create a folder named DATA in the project root. Download the OfficeHome, Office31, and DomainNet datasets and place them under the directory.
 Download the datasets from the sources:
@@ -34,7 +34,7 @@ data/
  
  └── domainnet/
 
-**Step 3**: Configure Training Script
+## **Step 3**: Configure Training Script
 
 Edit the script located at:
 scripts/cocoop/LCMUDA_train.sh
@@ -43,7 +43,7 @@ Replace the cd path and the DATA variable with your own local paths. Set DATASET
 
 Each option corresponds to the OfficeHome, Office31, and DomainNet datasets respectively.
 
-**Step 4**: Set Source and Target Domains
+## **Step 4**: Set Source and Target Domains
 Modify the --source-domains and --target-domains arguments in LCMUDA_train.sh to reproduce different settings:
 
 UniSDA (Universal Single-source Domain Adaptation)
@@ -56,7 +56,7 @@ Set --source-domains to multiple domains.
 
 --target-domains should always be set to the name of the target domain.
 
-**Step 5**: Run Training:
+## **Step 5**: Run Training:
 
 bash scripts/cocoop/LCMUDA_train.sh
 
