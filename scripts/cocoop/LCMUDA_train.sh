@@ -1,9 +1,9 @@
 #!/bin/bash
 
-cd /data1/ljs/LCMUDA
+cd /xxx/xxx/MUEUDA
 
 # custom config
-DATA=/data1/ljs/LCMUDA/DATA
+DATA=/xxx/xxx/MUEUDA/DATA
 TRAINER=LCMUDA
 
 
