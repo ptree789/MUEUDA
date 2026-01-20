@@ -1,9 +1,11 @@
 **Getting Started**
 
 **Step 1**: Clone the Repository
+
 git clone https://github.com/ptree789/MUEUDA
 
 **Step 2**: Prepare the Datasets
+
 Create a folder named DATA in the project root. Download the OfficeHome, Office31, and DomainNet datasets and place them under the directory.
 Download the datasets from the sources:
 
@@ -51,7 +53,8 @@ Set --source-domains to multiple domains.
 
 --target-domains should always be set to the name of the target domain.
 
-Step 5: Run Training
+**Step 5**: Run Training:
+
 bash scripts/cocoop/LCMUDA_train.sh
 
 For example, if:
