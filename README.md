@@ -9,23 +9,23 @@ This code is built on top of the awesome toolbox [Dassl.pytorch]. so you need to
 
 1) cd Dassl.pytorch/
 
-# Create a conda environment
+## Create a conda environment
 2) conda create -y -n dassl python=3.8
 
-# Activate the environment
+## Activate the environment
 3) conda activate dassl
 
-4) # Install torch (requires version >= 1.8.1) and torchvision
-# Please refer to https://pytorch.org/ if you need a different cuda version
-conda install pytorch torchvision cudatoolkit=10.2 -c pytorch
+## Install torch (requires version >= 1.8.1) and torchvision
+## Please refer to https://pytorch.org/ if you need a different cuda version
+4) conda install pytorch torchvision cudatoolkit=10.2 -c pytorch
 
-# Install dependencies
+## Install dependencies
 pip install -r requirements.txt
 
-# Install this library (no need to re-build if the source code is modified)
+## Install this library (no need to re-build if the source code is modified)
 python setup.py develop
 
-# After that, run `pip install -r requirements.txt` under `MUEUDA/` to install a few more packages required by [CLIP] (this should be done when `dassl` is activated)
+## After that, run `pip install -r requirements.txt` under `MUEUDA/` to install a few more packages required by [CLIP] (this should be done when `dassl` is activated)
 5) cd ..
    pip install -r requirements.txt
 
