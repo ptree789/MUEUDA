@@ -27,6 +27,7 @@ python setup.py develop
 
 ### After that, run `pip install -r requirements.txt` under `MUEUDA/` to install a few more packages required by [CLIP] (this should be done when `dassl` is activated)
 5) cd ..
+   
    pip install -r requirements.txt
 
 ### **Step 3**: Prepare the Datasets
