@@ -12,7 +12,7 @@ This code is built on top of the awesome toolbox [Dassl.pytorch]. so you need to
 ### Create a conda environment
 2) conda create -y -n dassl python=3.8
 
-## Activate the environment
+### Activate the environment
 3) conda activate dassl
 
 ### Install torch (requires version >= 1.8.1) and torchvision
